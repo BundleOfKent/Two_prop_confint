@@ -34,7 +34,7 @@ def two_prop_confint(p1,n1,p2,n2,confidence=0.95,method='normal'):
     Returns
     -------
     diff : float
-        Difference between the two proportions (p1-p2)
+        Difference between the two proportions (p1-p2).
 
     conf_int : 1d ndarray
         Confidence interval for the difference between the two population proportions.
